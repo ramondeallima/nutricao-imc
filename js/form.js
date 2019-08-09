@@ -5,8 +5,7 @@ botaoAdicionar.addEventListener('click', function(event){
     
     var form = document.querySelector('#form-adiciona')
 
-    var paciente = ObtemPacienteDoFormulario(form)
-    console.log(paciente)
+    var paciente = ObterPacienteDoFormulario(form)
 
     var pacienteTR = document.createElement('tr')
     
@@ -32,13 +31,13 @@ botaoAdicionar.addEventListener('click', function(event){
     tabela.appendChild(pacienteTR)
 })
 
-function ObtemPacienteDoFormulario(form){
+function ObterPacienteDoFormulario(form){
 
     var paciente = {
         nome: form.nome.value,
         peso: form.peso.value,
         altura: form.altura.value,
-        gordura: form.gordura.value
+        gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value)
     }
 
