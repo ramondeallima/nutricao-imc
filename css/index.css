@@ -124,10 +124,7 @@ button[disabled=disabled], button:disabled {
 	border-color: darkgray;
 
 }
-#nome{
-	width: 100%;
-	margin-right: 400px;
-}
+
 .adicionar-paciente{
     margin-top: 30px;
 }
@@ -138,6 +135,9 @@ button[disabled=disabled], button:disabled {
 .paciente-invalido{
 	background-color: orangered	;
 }
-#mensagem-erro{
+#mensagens-erro{
 	color: red;
+}
+#nome{
+	width: 785px;
 }
