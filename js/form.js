@@ -54,6 +54,7 @@ function MontarTr(paciente){
     pacienteTR.appendChild(gorduraTD)
     pacienteTR.appendChild(imcTD)
 
+    
     return pacienteTR
 }
 
