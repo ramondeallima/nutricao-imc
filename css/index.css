@@ -141,3 +141,8 @@ button[disabled=disabled], button:disabled {
 #nome{
 	width: 785px;
 }
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
