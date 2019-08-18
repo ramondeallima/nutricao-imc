@@ -7,7 +7,6 @@ botaoAdicionar.addEventListener('click', function(event){
 
     var paciente = ObterPacienteDoFormulario(form)
     
-    var pacienteTR = MontarTr(paciente)
 
     var erros = validaPaciente(paciente)
 
@@ -17,8 +16,7 @@ botaoAdicionar.addEventListener('click', function(event){
         return
     }
 
-    var tabela = document.querySelector('#tabela-pacientes')
-    tabela.appendChild(pacienteTR)
+    adicionaPacienteNaTabela(paciente)
     
     form.reset()
     var mensagensErro = document.querySelector('#mensagens-erro')
@@ -64,6 +62,12 @@ function MontarTD(dado, classe) {
     td.classList.add(classe)
 
     return td
+}
+
+function adicionaPacienteNaTabela(paciente) {
+    var pacienteTR = MontarTr(paciente)
+    var tabela = document.querySelector('#tabela-pacientes')
+    tabela.appendChild(pacienteTR)
 }
 
 function exibeMensagensDeErro(erros) {
