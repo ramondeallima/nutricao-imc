@@ -11,7 +11,7 @@
 
 - Filtro utilizando expressão regular
 
-- Consumo da API [] (http://api-pacientes.herokuapp.com/pacientes) utilizando AJAX para fazer a importação de pacientes de outro sistema.
+- Consumo da [API-Pacientes](http://api-pacientes.herokuapp.com/pacientes) utilizando AJAX para fazer a importação de pacientes de outro sistema.
 
 
 
