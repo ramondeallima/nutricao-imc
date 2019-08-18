@@ -156,3 +156,8 @@ button[disabled=disabled], button:disabled {
 .invisivel{
 	display: none;
 }
+
+.botao{
+	display: inline;
+	width: 250px;
+}
