@@ -3,7 +3,7 @@
 ![nutricao-imc](https://user-images.githubusercontent.com/37948637/63231023-b6365480-c1eb-11e9-90c6-97f6623a8d7d.png)
 
 ## Funcionalidades 
-- Cadastro de Novos Pacientes
+- Cadastro de Pacientes
 
 - Exclusão de pacientes ao realizar duplo clique sobre o mesmo.
 
